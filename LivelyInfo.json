@@ -1,0 +1,17 @@
+{
+  "AppVersion": "1.0.0.0",
+  "Title": "Weather Live",
+  "Thumbnail": "it3viqku.jpg",
+  "Preview": "kh5eshdc.gif",
+  "Desc": "Create an API key in openweathermap.org to get started.",
+  "Author": "UrangBanua",
+  "License": "see license.txt",
+  "Contact": "https://github.com/rocksdanister/weather-fetch-wallpaper",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": null,
+  "Version": 0
+}
