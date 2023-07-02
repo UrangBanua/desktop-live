@@ -12,7 +12,7 @@ let dateEl=document.querySelector(".date");
 clockEl.style.marginTop=`${timeEl.offsetHeight}px`;
 var maxTemp=0,minTemp=999;
 
-const days = ['Minggu','Senin','Selasa','Rabu','Kamis','Ju`mat','Sabtu'];
+const days = ['Minggu','Senin','Selasa','Rabu','Kamis','Jum`at','Sabtu'];
 
 setInterval(time,1000);
 time();
@@ -35,8 +35,8 @@ function time(){
   if(mmddyy)
     dateEl.innerText=new Intl.DateTimeFormat('en-US',{'month':'short','day':'2-digit','year':'2-digit'}).format(d).replace(',','').replace(/ /g,'/');
   else
-    dateEl.innerText=new Intl.DateTimeFormat('id-ID',{'day':'2-digit','month':'2-digit','year':'2-digit'}).format(d).replace(',','').replace(/ /g,'/');
-
+    // dateEl.innerText=new Intl.DateTimeFormat('id-ID',{'day':'2-digit','month':'2-digit','year':'2-digit'}).format(d).replace(',','').replace(/ /g,'/');
+  	dateEl.innerText=new Intl.DateTimeFormat('id-ID',{'weekday':'long','day':'2-digit','month':'long','year':'numeric'}).format(d).replace(',','');
 }
 
 function getWeather(){

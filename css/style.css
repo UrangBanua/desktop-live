@@ -71,3 +71,15 @@ object{
   margin: 3rem;
   display: none;
 }
+
+#tbl_sunriseTime {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#tbl_sunsetTime {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
