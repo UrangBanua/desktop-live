@@ -19,3 +19,6 @@
         link.innerHTML = x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue; // Mengisi sel link dengan nilai dari elemen link
       }
     }
+
+// Memanggil fungsi displayXML()
+    displayXML("https://www.w3schools.com/xml/note.xml");
