@@ -67,7 +67,8 @@ var TxtType = function(el, toRotate, period) {
     }
     
     try {
-        readXMLToArray("../banjarmasin.tribunnews.com_rss.xml", "title");
+        //readXMLToArray("../banjarmasin.tribunnews.com_rss.xml", "title");
+        readXMLToArray("../cnnindonesia.com_teknologi_rss.xml", "title");
     } catch (e) {
         console.log(e);
     } finally {
